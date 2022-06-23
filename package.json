@@ -2,7 +2,7 @@
   "name": "firstapp",
   "version": "0.1.0",
   "private": true,
-  "main":"server.js",
+  "main": "server.js",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.0.0",
     "@fortawesome/free-solid-svg-icons": "^6.0.0",
@@ -34,7 +34,7 @@
     "react-redux": "^7.2.6",
     "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

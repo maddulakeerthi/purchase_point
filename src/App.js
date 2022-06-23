@@ -3,23 +3,12 @@ import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import Home from './components/Home'
 import Address from './components/Address'
 import Contactus from './components/Contactus'
-import Technologies from './components/Technologies'
-import Javascript from './components/Javascript'
-import Html from './components/Html'
-import Footer from './components/Footer'
 import Signup from './components/Signup'
-import Cart from './components/Cart'
-import Explore from './components/Explore'
 import More from './components/More'
 import Women from './components/Women'
 import Babies from './components/Babies'
-import More1 from './components/More1'
-import Orders from './components/Orders';
 import {FcLinux} from 'react-icons/fc'
-import { Navbar } from 'react-bootstrap';
-import Buy from './components/Buy';
-import {BsFillCartFill} from 'react-icons/Bs'
-import { IconContext } from "react-icons";
+
  
 function App() {
   
@@ -36,7 +25,9 @@ function App() {
 
         <li className="nav-item">
          
-                <NavLink className="nav-link text-warning text-capitalize mb-2 mt-0" to="Home" ><FcLinux/>Shop Easy</NavLink>
+                <NavLink className="nav-link text-warning text-capitalize mb-2 mt-0" to="Home" ><FcLinux/>PURCHASE POINT</NavLink>
+                <h6 className="text-white ms-5 ms-5" >- one stop destination for fashion</h6>
+                
                 
               </li>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
