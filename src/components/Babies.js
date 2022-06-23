@@ -46,7 +46,7 @@ function Babies()
       <div className="card-body">
         
         <img className="h-95 w-100 mt-3" src="https://cdn.babycouture.in/pub/media/wysiwyg/hair_accesserioes.jpg" />
-        <h2>MENS ACCESSORIES</h2>
+        <h2>KIDS ACCESSORIES</h2>
         <h5>Range: 300-2000</h5>
         <h5>Offer: Upto 20% off</h5>
         <button class="btn btn-primary">BUY NOW!</button>

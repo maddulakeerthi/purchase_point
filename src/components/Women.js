@@ -46,7 +46,7 @@ function Women()
       <div className="card-body">
         
         <img className="h-95 w-100 mt-3" src="https://road2beauty.com/wp-content/uploads/2018/02/Fashion-Accessories-Brands-Stores-Retail-Shops-in-Dubai-Online-Shopping-Guide.jpg" />
-        <h2>KIDS ACCESSORIES</h2>
+        <h2>WOMENS ACCESSORIES</h2>
         <h5>Range: 150-1000</h5>
         <h5>Offer: Upto 30% off</h5>
         <button class="btn btn-primary">BUY NOW!</button>
