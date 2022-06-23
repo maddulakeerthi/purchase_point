@@ -19,3 +19,11 @@ code {
   height: 15vw;
   object-fit: cover;
 }
+
+#logo.nav-item {
+  height: 60px;
+}
+
+.navbar {
+  height: 75px;
+}

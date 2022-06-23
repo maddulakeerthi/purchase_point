@@ -8,6 +8,7 @@ import More from './components/More'
 import Women from './components/Women'
 import Babies from './components/Babies'
 import {FcLinux} from 'react-icons/fc'
+//import {Logo} from "./images/logo.png"
 
  
 function App() {
@@ -21,15 +22,11 @@ function App() {
     <div className='content-wrap'>
       {/* links to routes */}
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div className="container-fluid">
-
-        <li className="nav-item">
-         
-                <NavLink className="nav-link text-warning text-capitalize mb-2 mt-0" to="Home" ><FcLinux/>PURCHASE POINT</NavLink>
-                <h6 className="text-white ms-5 ms-5" >- one stop destination for fashion</h6>
-                
-                
-              </li>
+        <div className="container-fluid" id='nav'>
+        <NavLink className="nav-link text-warning text-capitalize mb-2 mt-0" to="Home" ><img style={{"height": "50px", "width":"100px"}} src={require("./images/logo.png")}></img></NavLink>
+        <li className="nav-item" id='logo'>
+              
+        </li>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
